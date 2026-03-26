@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router'
 import LeftMenu from './components/leftMenu/leftMenu'
 import './styles/index'
 import PageTasks from './components/PageTasks/PageTasks'
@@ -8,7 +8,7 @@ function App() {
  
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div>
       <LeftMenu />
       <Routes>
@@ -17,7 +17,7 @@ function App() {
         
       </Routes>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
