@@ -1,0 +1,19 @@
+@use 'variable.module.scss' as *;
+
+html, body {
+    height: 100%;
+    overflow: hidden; /* Убирает скролл */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $Main-color;
+
+    display: flex;
+    flex-direction: row;
+}
+
+svg {
+    color: $White-color;
+}

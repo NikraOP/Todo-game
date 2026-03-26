@@ -1,0 +1,222 @@
+@use '../../styles/variable.module.scss' as *;
+
+.screen {
+    width: 100vw;
+    height: 1644px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.addTasks {
+    width: 100%;
+    height: 1644px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    width: 840px;
+    height: 630px;
+    margin-top: 102px;
+    display: flex;
+    flex-direction: column;
+
+    animation-duration: 1s;
+    transition-duration: 1s;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.day {
+    font-size: $Main-text-size;
+    font-weight: 700;
+    font-family: 'inter';
+    color: $Text-color;
+
+    height: 76px;
+
+}
+.Headline{
+    color: $White-color;
+    text-align: center;
+
+}
+
+.height50 {
+    height: 50px;
+}
+
+
+.descripthion {
+    font-size: $Nav-text-size;
+    font-weight: 400;
+    font-family: 'inter';
+    color: $Text-color;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.add {
+    width: 260px;
+    height: 65px;
+    background-color: $Accent-color;
+    border-radius: $Border-radius;
+    border: solid 0px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition-duration: 0.2s;
+    &:hover {
+        background-color: #6b1a9b;
+        cursor: pointer;
+    }
+}
+.startText {
+    font-size: $Nav-text-size;
+    font-weight: 700;
+    font-family: 'inter';
+    color: $Text-color;
+}
+
+.greetings {
+    width: 760px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 300px;
+}
+
+.marginTop90 {
+    margin-top: 90px;
+}
+ .constructor{
+     width: 760px;
+     height: 175px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 30px;
+     border: solid 1px $Frame-color;
+     border-radius: $Border-radius;
+ }
+ 
+.headline {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'inter';
+    color: $Constructor-color;
+    background-color: $Main-color;
+    display: inline-block;
+    border: solid 0px;
+    &:focus {
+        outline: none; /* Убирает стандартный синий контур */
+        border: 1px solid transparent; /* Убирает бордер или делаем его прозрачным */
+        box-shadow: none; /* Убирает тени */
+    }
+}
+
+.description {
+    font-size: $Button-text-size;
+    font-weight: 500;
+    font-family: 'inter';
+    color: $Constructor-color;
+    background-color: $Main-color;
+    border: solid 0px;
+    &:focus {
+        outline: none; /* Убирает стандартный синий контур */
+        border: 1px solid transparent; /* Убирает бордер или делаем его прозрачным */
+        box-shadow: none; /* Убирает тени */
+    }
+}
+
+.top {
+                width: 470px;
+                height: 49px;
+                
+                display: flex;
+                flex-direction: column;
+
+                margin-top: 12px;
+                margin-left: 15px;
+}
+
+.center{
+    width: 105px;
+    height: 28px;
+}
+
+.poluCenter {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+}
+
+.constructorDay {
+    width: 105px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    background-color: $Main-color;
+    border: solid 1px $Frame-color;
+    border-radius: $Border-radius;
+    transition-duration: 1s;
+}
+
+.fixed {
+    
+    margin-top: 28px;
+}
+
+.marginTop56 {
+    margin-top: 56px;
+}
+
+.marginTop84{
+    margin-top: 84px;
+}
+
+.text {
+    font-size: $Button-text-size;
+    font-weight: 500;
+    font-family: 'inter';
+    text-align: center;
+    color: $Data-color-Today;
+    margin-left: 2px;
+}
+
+.svg {
+    color: $Data-color-Today;
+}
+
+.no-activity {
+    display: none;
+}
+
+.button {
+    width: 1052px;
+    height: 30px;
+
+    text-align: start;
+
+    background-color: $Main-color;
+    border: 0px solid;
+
+    color: $Constructor-color;
+
+    &:hover{
+        color: $Accent-color;
+        transition-duration: 0.5s;
+    }
+}
+
+.span {
+    color: $Accent-color;
+}
+

@@ -1,0 +1,96 @@
+@use '../../styles/variable.module.scss' as *;
+
+.background {
+    background-color: $Nav-Menu-color;
+
+    position: fixed;
+
+    width: 324px;
+    height: 100vh;
+}
+
+.nav {
+    width: 290px;
+    height: 740px;
+
+    margin-left: 34px;
+
+}
+
+
+.part {
+     width: 100%;
+     height: 37px;
+
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+
+     transition-duration: 0.2s;
+     animation-duration: 0.2s;
+     border-radius: 4px;
+
+     &:hover {
+     cursor: pointer;
+     background-color: rgb(90, 90, 90);
+     }
+}
+
+.partNoHover {
+     width: 100%;
+     height: 37px;
+
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     
+     border-radius: 4px;
+
+}
+
+.marginTop42 {
+    margin-top: 42px;
+}.marginTop33 {
+    margin-top: 33px;
+}.marginTop20 {
+    margin-top: 20px;
+}
+
+
+.text {
+    font-size: $Nav-text-size;
+    font-weight: 700;
+    font-family: 'inter';
+    color: $Text-color;
+    margin-left:$Margin-text ;
+
+    text-decoration: none;
+}
+.svg21 {
+    margin-left: 21px;
+}
+
+.ActiveNav {
+    background-color: #45006D;
+    &:hover {
+        background-color: #5d0391;
+    }
+}
+.ActiveText {
+        color: #7501B8;
+    }
+
+.active {
+    background-color: #45006D;
+    transition-duration: 0.5s;
+    &:hover {
+        background-color: #45006D;
+    }
+}
+
+.activeInside {
+    color: $Accent-color;
+    transition-duration: 0.5s;
+}
+
+

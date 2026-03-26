@@ -1,0 +1,49 @@
+@use '../../styles/variable.module.scss' as *;
+
+.addTask {
+            width: 100%;
+            height: 45px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            margin-top: 56px;
+
+            transition-duration: 0.2s;
+
+            &:hover {
+            cursor: pointer;
+            background-color: rgb(90, 90, 90);
+            border-radius: 4px;
+            }
+
+        }
+.plus {
+        width: 45px;
+        height: 45px;
+
+        background-color: $Accent-color;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: $Nav-Menu-color;
+
+        font-size: 48px;
+        font-weight: 800;
+        font-family: 'inter';
+
+        border-radius: 100px;
+    }
+
+.text {
+        color: $Accent-color;
+
+        font-size: $Nav-text-size;
+        font-weight: 700;
+        font-family: 'inter';
+
+        margin-left: 8px;
+    }

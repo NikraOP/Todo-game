@@ -1,0 +1,100 @@
+@use '../../styles/variable.module.scss' as *;
+
+.screen {
+    width: 100vw;
+    height: 1644px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.start {
+    width: 840px;
+    height: 630px;
+    margin-top: 102px;
+    display: flex;
+    flex-direction: column;
+
+    animation-duration: 1s;
+    transition-duration: 1s;
+}
+
+.day {
+    font-size: $Main-text-size;
+    font-weight: 700;
+    font-family: 'inter';
+    color: $Text-color;
+
+    height: 76px;
+}
+
+.block {
+    width: 840px;
+    height: 340px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: $Main-text-size;
+    font-weight: 700;
+    font-family: 'Inter';
+    color: $Text-color;
+
+    height: 76px;
+}
+
+.img {
+    width: 109px;
+    height: 147px;
+}
+
+.mmr {
+    font-size: $Main-text-size;
+    font-weight: 700;
+    font-family: 'Inter';
+    color: $Text-color;
+
+    height: 76px;
+}
+
+.button {
+    width: 107px;
+    height: 36px;
+
+    background-color: $Accent-color;
+
+    border-radius: 10px;
+
+    border: 0px;
+
+    transition-duration: 0.2s;
+
+    &:hover {
+        background-color: #711ea1;
+    }
+
+    &:active {
+        background-color: #8a1ec9;
+    }
+
+    font-weight: 400;
+    font-family: 'Inter';
+    color: $Text-color;
+
+}
+
+.buttonList {
+    width: 840px;
+    height: 36px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 27px;
+    
+}
+
